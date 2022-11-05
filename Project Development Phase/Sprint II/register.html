@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style type="text/css">
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sign-up-form
+{
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 9% auto 0;
+    text-align: center;
+    }
+.sign-up-form h1
+{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 95%;
+    border: 1px solid #999;
+    outline: none;
+}
+button
+{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-btn
+{
+    background-color: #1c8adb;
+}
+.google-btn
+{
+    background-color: #21afde;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: white;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img{
+    width:70px;
+    margin-top: -60px
+}
+    </style>
+</head>
+
+<body>
+    <div class = "sign-up-form">
+        <img src="usericon.png">
+        <h1> Sign Up Now </h1>
+        <form>
+            <input type="email" class="input-box" placeholder="Your email">
+            <input type="password" class="input-box" placeholder="Your Password">
+            <button type="button" class="signup-btn">Sign up</button>
+            <hr>
+            <p class="or">OR</p>
+            <button type="button" class="google-btn">Sign Up with google</button>
+            <p>Do you have an account ? <a href="#">Sign in</a></p>
+        </form>
+    </div>
+</body>
+</html>
